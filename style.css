@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quizdiv {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.quizdiv h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.quizdiv p {
+    text-align: center;
+}
+
+.question {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.question p {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+}
+
+.question input {
+    display: inline-block;
+    max-width: 50vw;
+    width: 80%;
+    flex-grow: 5;
+}
+
+.fishquiz button {
+    margin-left: calc(50% - 75px);
+    margin-top: 20px;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#result {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80vw;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#result img {
+    width: 60vw;
+}
